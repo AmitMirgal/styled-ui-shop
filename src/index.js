@@ -1,2 +1,3 @@
-export { default as Radio } from './components/Radio.jsx';
-export * from './components/Radio.jsx';
+import Radio from "./components/Radio.jsx";
+
+export default { Radio };
