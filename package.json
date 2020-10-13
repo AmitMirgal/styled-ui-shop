@@ -1,8 +1,8 @@
 {
   "name": "styled-ui-shop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Radio button is to provide to see all available options.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "webpack"
   },
