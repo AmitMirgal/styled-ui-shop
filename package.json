@@ -1,6 +1,6 @@
 {
   "name": "styled-ui-lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Radio button is to provide to see all available options.",
   "main": "index.js",
   "scripts": {
