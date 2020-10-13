@@ -35,11 +35,5 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "styled-components": "^5.2.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=8.0.0"
   }
 }
