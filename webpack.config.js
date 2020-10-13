@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: "radioactive.js",
+    filename: "index.js",
     libraryTarget: "commonjs2",
   },
   module: {
