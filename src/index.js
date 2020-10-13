@@ -1,5 +1,1 @@
-import Radio from "./components/Radio.jsx";
-
-export default {
-  Radio,
-};
+export * from './components/Radio.jsx';
