@@ -74,11 +74,4 @@ const Radio = (props) => {
   );
 };
 
-Radio.defaultProps = {
-  color: "gray",
-  borderColor: "gray",
-  bgColor: "gray",
-  value: "0",
-};
-
 export default Radio;
