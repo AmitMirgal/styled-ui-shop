@@ -1,6 +1,6 @@
 {
   "name": "styled-ui-shop",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "Radio button is to provide to see all available options.",
   "main": "./dist/index.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "react-radio-button"
   ],
   "author": "Amit Mirgal",
-  "license": "MIT",
   "private": false,
   "bugs": {
     "url": "https://github.com/AmitMirgal/styled-ui-shop.git",
@@ -26,14 +25,18 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-plugin-styled-components": "^1.11.1",
+    "css-loader": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.0",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "styled-components": "^5.2.0"
+    "webpack-cli": "^3.3.12"
   }
 }
