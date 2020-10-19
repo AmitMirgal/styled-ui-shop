@@ -1,10 +1,10 @@
-## Welcome to styled-ui-shop
+# Welcome to styled-ui-shop
 
-Radio button is to provide to see all available options..
+React components for faster and simpler web development. Built on styled-components to provide you a lighter react component.
 
-### code snippet 💻
+## code snippet 💻
 
-How to use Radio component
+### Radio component
 
 ```javascript
 import { Radio } from "styled-ui-shop";
@@ -12,9 +12,31 @@ import { Radio } from "styled-ui-shop";
     name="radio"
     label="radio"
     value="radio"
-    onChange={(event) => console.log('//do something...)}
+    onChange={(event) => console.log('do something...')}
     bgColor="green"
     borderColor="green"
+/>
+```
+
+---
+
+### Dropdown component
+
+```javascript
+import { Dropdown } from "styled-ui-shop";
+
+const options = [
+  { id: '1', value: 'Level' },
+  { id: '2', value: 'Beginner' },
+  { id: '3', value: 'Intermediate' },
+  { id: '4', value: 'Expert' },
+];
+
+<Dropdown
+    borderColor="gray"
+    color="gray"
+    options={options}
+    onChange={(event) => console.log('do something...')}
 />
 ```
 
